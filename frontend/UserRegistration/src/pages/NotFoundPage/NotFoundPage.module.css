@@ -1,0 +1,112 @@
+/* NotFoundPage.module.css */
+
+/* Not Found Container */
+.notfoundContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("../../assets/background.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Not Found Box */
+.notfoundBox {
+  background: #e7e7e7;
+  box-shadow: -6px -8.89px 5.46px 0px #ffffffd6,
+    8px 9px 17.65px 2.54px #0000004f;
+  width: 100%;
+  max-width: 500px;
+  padding: 40px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.title {
+  font-family: "Nunito", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: #097a81;
+  margin-bottom: 20px;
+}
+
+/* Message */
+.message {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  height: 50px;
+  background: #0e797f;
+  box-shadow: -6px -8.89px 5.46px 0px #ffffffd6,
+    8px 9px 17.65px 2.54px #0000004f;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.homeButton {
+  margin-top: 20px;
+}
+
+/* Footer Text */
+.footerText {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #000;
+  margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .notfoundBox {
+    width: 307.5px;
+    padding: 25px 10px;
+  }
+
+  .logo {
+    width: 61px;
+    height: 55.19px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 14.33px;
+    margin-bottom: 10px;
+  }
+
+  .message {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    height: 34px;
+    font-size: 9.5px;
+    margin-top: 10px;
+  }
+
+  .homeButton {
+    margin-top: 10px;
+  }
+
+  .footerText {
+    font-size: 9.5px;
+    margin-top: 10px;
+  }
+}

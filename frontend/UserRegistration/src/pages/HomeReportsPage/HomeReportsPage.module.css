@@ -1,0 +1,517 @@
+.reportsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  min-height: 100vh;
+  background-image: url("../../assets/background.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.reportsBox {
+  background: #e7e7e7;
+  box-shadow: -6px -8.89px 5.46px 0px #ffffffd6,
+    8px 9px 17.65px 2.54px #0000004f;
+  width: 100%;
+  max-width: 800px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #097a81;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+
+.patientName {
+  font-size: 20px;
+  color: #097a81;
+  margin-bottom: 15px;
+}
+
+.reportsContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.reportsLeftSide {
+  flex: 1;
+  background: #e7e7e7;
+  box-shadow: -8.89px -8.89px 5.46px 0px #ffffffd6,
+    8px 6.35px 15.2px 2.54px #00000040;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: left;
+
+  max-width: 350px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.statusSection {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.statusBanner {
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.statusCollected {
+  background-color: #27ae60;
+  color: #ffffff;
+}
+
+.statusPending {
+  background-color: #c0392b;
+  color: #ffffff;
+}
+
+.bloodCollected,
+.bloodPending {
+  background-color: #28a745;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.bloodPending {
+  background-color: #dc3545;
+}
+
+.homeReportDetails {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.packageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.packageInfo {
+  font-size: 14px;
+  color: #333;
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 10px;
+}
+
+.packageLabel {
+  font-weight: 600;
+}
+
+.packageValue {
+  font-size: 16px;
+  color: #0e797f;
+  margin-left: 5px;
+}
+
+.bookingId {
+  font-size: 16px;
+  color: #ff2c2c;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.collectionPreferences,
+.addressInfoCard {
+  background: #e7e7e7;
+  box-shadow: -8.89px -8.89px 5.46px 0px #ffffffd6,
+    8px 6.35px 15.2px 2.54px #00000040;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.collectionPreferences h3,
+.addressInfoCard h3 {
+  color: #097a81;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.collectionPreferences p,
+.addressInfoCard p {
+  margin: 4px 0;
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.reportsRightSide {
+  flex: 1;
+  text-align: left;
+  max-width: 350px;
+  width: 100%;
+}
+
+.timeslot {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #097a81;
+  margin-bottom: 15px;
+}
+
+.dependentsSection {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.dependentsHeader {
+  font-size: 16px;
+  color: #097a81;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.dependentsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.dependentCard {
+  background: #e7e7e7;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  width: calc(50% - 10px);
+}
+
+.dependentCardContent {
+  text-align: left;
+}
+
+.dependentCardContent p {
+  font-size: 13px;
+  color: #7f8c8d;
+  margin: 4px 0;
+}
+
+.dependentCardContent strong {
+  color: #2c3e50;
+}
+
+.notes {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.notes h4 {
+  color: #2c3e50;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.notes p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #097a81;
+}
+
+.notes ul {
+  list-style-type: disc;
+  padding-left: 18px;
+}
+
+.notes li {
+  margin-bottom: 4px;
+  font-size: 13px;
+  color: #333;
+}
+
+.footerText {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.contactDetails {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.contactDetails svg {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #ffffff;
+  padding: 1.2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 350px;
+  text-align: center;
+}
+
+.modalContent h3 {
+  color: #dc3545;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.modalContent p {
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.confirmBtn,
+.cancelBtn {
+  flex: 1;
+  padding: 6px 0;
+  font-size: 13px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.confirmBtn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.confirmBtn:hover {
+  background-color: #c82333;
+}
+
+.cancelBtn {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.cancelBtn:hover {
+  background-color: #5a6268;
+}
+
+@media (max-width: 768px) {
+  .reportsContent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .reportsLeftSide,
+  .reportsRightSide {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .logo {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .patientName {
+    font-size: 18px;
+  }
+
+  .timeslot {
+    font-size: 14px;
+  }
+
+  .bookingId {
+    font-size: 16px;
+  }
+
+  .packageContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .packageInfo {
+    margin-bottom: 10px;
+  }
+
+  .reportsBox {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .dependentCard {
+    width: 100%;
+  }
+
+  .addressInfoCard,
+  .collectionPreferences,
+  .dependentsSection,
+  .notes {
+    margin-top: 10px;
+  }
+
+  .collectionPreferences p,
+  .addressInfoCard p,
+  .packageDetails p {
+    font-size: 14px;
+  }
+
+  .dependentsSection h4,
+  .collectionPreferences h3,
+  .addressInfoCard h3,
+  .packageDetails h4,
+  .notes h4 {
+    font-size: 18px;
+  }
+
+  .notes li {
+    font-size: 12px;
+  }
+
+  .footerText {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 15px;
+    color: #666;
+  }
+
+  .contactDetails {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 8px;
+  }
+
+  .contactDetails svg {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 60px;
+  }
+
+  .title,
+  .patientName {
+    font-size: 16px;
+  }
+
+  .packageInfo,
+  .addressInfoCard p,
+  .collectionPreferences p,
+  .dependentCardContent p {
+    font-size: 12px;
+  }
+
+  .bookingId {
+    font-size: 14px;
+  }
+
+  .notes p {
+    font-size: 13px;
+  }
+
+  .notes li {
+    font-size: 11px;
+  }
+
+  .footerText {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 15px;
+    color: #666;
+  }
+
+  .contactDetails {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 8px;
+  }
+
+  .contactDetails svg {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  .modalContent {
+    padding: 1rem;
+    max-width: 300px;
+  }
+
+  .modalContent h3 {
+    font-size: 14px;
+  }
+
+  .modalContent p {
+    font-size: 12px;
+  }
+
+  .confirmBtn,
+  .cancelBtn {
+    font-size: 12px;
+    padding: 5px 0;
+  }
+}
+
+.backButton {
+  background-color: transparent;
+  border: none;
+  color: #0e797f;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+  position: relative;
+  top: -60px !important;
+}
+
+.backButton:hover {
+  color: #0c6664;
+}

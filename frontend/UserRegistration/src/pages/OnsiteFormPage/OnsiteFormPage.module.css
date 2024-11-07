@@ -1,0 +1,192 @@
+.detailsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("../../assets/background.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.phoneInputBox {
+  background: #e7e7e7;
+  box-shadow: -4px -6px 4px 0px #ffffffd6, 6px 7px 10px 1.5px #0000004f;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px 40px;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.backButton {
+  background-color: transparent;
+  border: none;
+  color: #0e797f;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+  position: relative;
+  top: -50px !important;
+  left: -320px;
+}
+
+.backButton:hover {
+  color: #0c6664;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.title {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #097a81;
+  margin-bottom: 15px;
+  line-height: 32px;
+}
+
+.onsiteFormContainer {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.formGroupContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.leftSide,
+.rightSide {
+  flex: 1;
+  margin: 0 10px;
+}
+.rightSide {
+  margin-top: 30px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.fieldLabel {
+  color: #0e797f;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.required {
+  color: red;
+}
+
+.inputField {
+  width: 100%;
+  height: 45px;
+  background: #ededed;
+  box-shadow: -6px -4px 4px 0px #ffffffc7 inset, 5px 5px 5px 0px #00000040 inset;
+  border: none;
+  border-radius: 20px;
+  padding: 0 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.confirmBtn {
+  background-color: #0e797f;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  height: 45px;
+  font-size: 18px;
+  box-shadow: -4px -6px 4px 0px #ffffffd6, 6px 6px 8px 1px #00000040;
+  transition: background-color 0.3s ease;
+}
+
+.confirmBtn:hover {
+  background-color: #0b6065;
+}
+
+.errorMessage {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footerText {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .formGroupContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .leftSide,
+  .rightSide {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .phoneInputBox {
+    width: 90%;
+    padding: 15px 20px;
+  }
+
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+
+  .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .confirmBtn {
+    height: 38px;
+    font-size: 16px;
+  }
+
+  .fieldLabel {
+    font-size: 14px;
+  }
+
+  .inputField {
+    height: 38px;
+    font-size: 14px;
+  }
+
+  .footerText {
+    font-size: 12px;
+  }
+
+  .errorMessage {
+    font-size: 12px;
+  }
+
+  .backButton {
+    top: 0px !important;
+    left: -110px;
+  }
+}

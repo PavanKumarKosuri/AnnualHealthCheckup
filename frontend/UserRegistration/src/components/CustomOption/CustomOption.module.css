@@ -1,0 +1,110 @@
+/* src/components/CustomOption/CustomOption.module.css */
+
+.customOption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+.viewButton {
+  background-color: #0e797f;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 4px 12px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.viewButton:hover {
+  background-color: #0b6065;
+}
+
+/* Modal Styles */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.117);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #e7e7e7;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+}
+
+.packageDescription {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e7e7e7;
+}
+
+.descriptionList {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+  height: 200px;
+  overflow-y: scroll;
+  text-align: start;
+  background-color: #e7e7e7;
+}
+
+.descriptionList::-webkit-scrollbar {
+  width: 8px;
+}
+
+.descriptionList::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.descriptionList::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.descriptionList::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.descriptionList {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+.nestedListItem {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+.closeModalBtn {
+  background-color: #0e797f;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 4px 12px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.closeModalBtn:hover {
+  background-color: #0b6065;
+}

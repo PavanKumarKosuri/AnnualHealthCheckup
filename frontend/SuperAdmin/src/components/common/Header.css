@@ -1,0 +1,11 @@
+/* src/components/common/Header.css */
+
+.contact-info small {
+    font-size: 12px;
+    color: #6A8CB3;
+  }
+  
+  .contact-info svg {
+    color: #6A8CB3;
+  }
+  

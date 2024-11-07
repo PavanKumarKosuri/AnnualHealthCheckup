@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "message": "ABC report is available to download.",
+    "timestamp": "2023-07-22T10:30:00Z",
+    "viewed": true
+  },
+  {
+    "id": 2,
+    "message": "New user registration is pending approval.",
+    "timestamp": "2023-07-23T12:00:00Z",
+    "viewed": true
+  },
+  {
+    "id": 3,
+    "message": "System maintenance scheduled for 5 PM.",
+    "timestamp": "2023-07-23T14:00:00Z",
+    "viewed": true
+  },
+  { 
+    "id": 4,
+    "message": "System maintenance scheduled for 5 PM.",
+    "timestamp": "2023-07-23T14:00:00Z",
+    "viewed": true
+  }
+]
