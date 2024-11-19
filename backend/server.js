@@ -39,7 +39,7 @@ app.use("/reports", express.static(path.join(__dirname, "reports")));
 const { db } = require("./config/db.config");
 
 function createDatabaseAndTables(callback) {
-  db.query(`CREATE DATABASE IF NOT EXISTS sql12743206;`, (err) => {
+  db.query(`CREATE DATABASE IF NOT EXISTS annualHealthCheckup;`, (err) => {
     if (err) {
       console.error("Error creating database:", err);
       return;
@@ -49,7 +49,7 @@ function createDatabaseAndTables(callback) {
 }
 
 function useDatabaseAndCreateTables(callback) {
-  db.query(`USE sql12743206;`, (err) => {
+  db.query(`USE annualHealthCheckup;`, (err) => {
     if (err) {
       console.error("Error selecting database:", err);
       return;
@@ -380,7 +380,7 @@ function createTablesSequentially(index, callback) {
 }
 
 function checkDatabaseExistsAndProceed(callback) {
-  const checkDatabaseQuery = `SHOW DATABASES LIKE 'sql12743206';`;
+  const checkDatabaseQuery = `SHOW DATABASES LIKE 'annualHealthCheckup';`;
 
   db.query(checkDatabaseQuery, (err, results) => {
     if (err) {
