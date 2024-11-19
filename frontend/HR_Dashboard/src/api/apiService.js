@@ -2,7 +2,8 @@ import axios from "axios";
 
 const api = axios.create({
   baseURL:
-    "https://camp-backend-gqf6ahdgcsgjdgb5.southindia-01.azurewebsites.net/api",
+    // "https://camp-backend-gqf6ahdgcsgjdgb5.southindia-01.azurewebsites.net/api",
+    "https://annualhealthcheckup.onrender.com/api",
   headers: {
     "Content-Type": "application/json",
   },
