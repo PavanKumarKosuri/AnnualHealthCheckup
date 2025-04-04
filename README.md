@@ -30,10 +30,6 @@ The **Annual Health Checkup Camp Module** is a corporate-centric platform aimed 
 
 ---
 
-You’re right; the links can be better presented to make the README visually appealing and user-friendly. We can enhance them with proper formatting, additional context, and tooltips or descriptions. Here's how we can restructure the **Deployed Links** section:
-
----
-
 ## **🌐 Deployed Links**
 
 ### **Backend**
@@ -141,13 +137,7 @@ _The backend server for the Annual Health Checkup Module is deployed on Render._
 
 ---
 
-## **📜 License**
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ### **🎉 Thank You for Visiting!**
 We hope this module simplifies your health camp management. Feel free to explore and contribute!
-
 
 ---
